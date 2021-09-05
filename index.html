@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: rgb(146, 182, 213);">
+<body>
+    <style> 
+    table{color: turquoise;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;}
+    .apples{color: thistle;
+        font-family: Arial, Helvetica, sans-serif;}
+    .bananas{color: wheat;
+        font-size: larger;}
+    .oranges{color: orange;
+        font-size: 30px;}
+    .Studentid{color: slateblue;}
+    .number{background-color:coral;}
+    h1{color: teal;}
+    h1.special_h1{color: rgba(90, 20, 90, 0.432);}
+    #submit_button{color: rgb(34, 139, 34);}
+    </style>
     <h1><i><u>Hello,</u></i> me!</h1>
+    <h1 class="special_h1">Hello, you!</h1>
     <h5>Hello, you!</h5>
     <p style="background-color: midnightblue;color: mintcream;">
         This is a demonstration of a paragraph, which is often more than one line. <br>
@@ -16,16 +33,16 @@
     <img src="https://www.cuhk.edu.hk/english/images/cuhk_logo_2x.png?20150907">
     <a href="https://www.cuhk.edu.hk">link to CUHK website</a>
     <ul>
-        <li>apples</li>
-        <li>banana</li>
-        <li>oranges</li>
+        <li class="apples">apples</li>
+        <li class="bananas">bananas</li>
+        <li class="oranges">oranges</li>
     </ul>
     <table cellspacing="0"; cellpadding="0"; border="1">
         <tr><th>Student ID</th><th>First Name</th><th>Last Name</th></tr>
-        <tr><td style="background-color: palegoldenrod;color: seagreen;">1001</td><td>John</td><td>Chan</td></tr>
-        <tr><td>1002</td><td>Mike</td><td>Lee</td></tr>
-        <tr><td>1003</td><td>Jerry</td><td>Lau</td></tr>
-        <tr><td>1004</td><td>Mary</td><td>Lu</td></tr>
+        <tr><td class="Studentid" style="background-color: palegoldenrod;color: seagreen;">1001</td><td>John</td><td>Chan</td></tr>
+        <tr><td class="Studentid">1002</td><td style="background-color: bisque;">Mike</td><td>Lee</td></tr>
+        <tr><td class="Studentid number">1003</td><td>Jerry</td><td>Lau</td></tr>
+        <tr><td class="Studentid">1004</td><td>Mary</td><td>Lu</td></tr>
     </table>
     <h2>HTML Forms</h2>
 
@@ -35,7 +52,7 @@
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value="Doe"><br><br>
         <input type="submit" value="Submit">
-        <button>sumbit</button>
+        <button id="submit_button">sumbit</button>
 </form> 
 
 </body>
