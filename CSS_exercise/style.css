@@ -1,0 +1,62 @@
+h1{border-style: solid;
+    border-width: 7px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    width: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+ul.navbar{list-style-type: none;
+          padding: 0;
+          margin: 0;
+          position: absolute;
+          top: 2em;
+          left: 2em;
+          width: 9em}
+
+ul.navbar a{text-decoration: none}
+
+ul.navbar li{background: white;
+             margin: 0.5em 0;
+             /*margin-top: 0.5em;
+             margin-right: 0;*/
+             padding: 0.3em;
+             border-right: 1em solid rebeccapurple}
+
+ul.navbar li:hover{background-color: silver;
+                   border-right: 1em solid lavender}
+
+a:link {color: blue }
+a:visited {color:red }
+
+address {margin-top: 1em;
+         padding-top: 1em;
+         border-top: thin dotted }
+
+body{padding-left:11em;
+     color: purple;
+     background-color: #d8da3d;
+     font-family:Georgia, 'Times New Roman', Times, serif}
+    
+.mother{border-style: solid;
+        border-width: 10px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: blue;
+        position: relative;
+        left: 20px;
+        top: 20px;}
+
+.mother .daughter{border-style: solid;
+          border-width: 10px;
+          margin-bottom: 5px;
+          background-color: coral;
+          /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/}
+
+#Jane,#Mary{color:red;}
+
+#Elisabeth{position:fixed;
+           left: 50px;
+           top: 50px;}
+
+div #son{color:azure;}
